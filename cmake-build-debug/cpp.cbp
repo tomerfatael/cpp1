@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/tomerfatael/CLionProjects/cpp1/a_with_update.cpp">
+		<Unit filename="/Users/tomerfatael/CLionProjects/cpp1/t.cpp">
 			<Option target="cpp"/>
 		</Unit>
 		<Unit filename="/Users/tomerfatael/CLionProjects/cpp1/CMakeLists.txt">

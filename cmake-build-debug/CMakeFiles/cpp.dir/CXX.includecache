@@ -6,15 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/tomerfatael/CLionProjects/cpp1/a_with_update.cpp
-iostream
--
+/Users/tomerfatael/CLionProjects/cpp1/t.cpp
 vector
 -
-algorithm
--
-map
--
-string
+iostream
 -
 

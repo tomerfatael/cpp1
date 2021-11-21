@@ -129,29 +129,29 @@ cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/build
 .PHONY : cpp/fast
 
-a_with_update.o: a_with_update.cpp.o
-.PHONY : a_with_update.o
+t.o: t.cpp.o
+.PHONY : t.o
 
 # target to build an object file
-a_with_update.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/a_with_update.cpp.o
-.PHONY : a_with_update.cpp.o
+t.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/t.cpp.o
+.PHONY : t.cpp.o
 
-a_with_update.i: a_with_update.cpp.i
-.PHONY : a_with_update.i
+t.i: t.cpp.i
+.PHONY : t.i
 
 # target to preprocess a source file
-a_with_update.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/a_with_update.cpp.i
-.PHONY : a_with_update.cpp.i
+t.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/t.cpp.i
+.PHONY : t.cpp.i
 
-a_with_update.s: a_with_update.cpp.s
-.PHONY : a_with_update.s
+t.s: t.cpp.s
+.PHONY : t.s
 
 # target to generate assembly for a file
-a_with_update.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/a_with_update.cpp.s
-.PHONY : a_with_update.cpp.s
+t.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/t.cpp.s
+.PHONY : t.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... cpp"
-	@echo "... a_with_update.o"
-	@echo "... a_with_update.i"
-	@echo "... a_with_update.s"
+	@echo "... t.o"
+	@echo "... t.i"
+	@echo "... t.s"
 .PHONY : help
 
 

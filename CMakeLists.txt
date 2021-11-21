@@ -3,4 +3,4 @@ project(cpp)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(cpp a_with_update.cpp)
+add_executable(cpp t.cpp)

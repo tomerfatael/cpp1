@@ -66,27 +66,27 @@ include CMakeFiles/cpp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cpp.dir/flags.make
 
-CMakeFiles/cpp.dir/a_with_update.cpp.o: CMakeFiles/cpp.dir/flags.make
-CMakeFiles/cpp.dir/a_with_update.cpp.o: ../a_with_update.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tomerfatael/CLionProjects/cpp1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpp.dir/a_with_update.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/a_with_update.cpp.o -c /Users/tomerfatael/CLionProjects/cpp1/a_with_update.cpp
+CMakeFiles/cpp.dir/t.cpp.o: CMakeFiles/cpp.dir/flags.make
+CMakeFiles/cpp.dir/t.cpp.o: ../t.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tomerfatael/CLionProjects/cpp1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpp.dir/t.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/t.cpp.o -c /Users/tomerfatael/CLionProjects/cpp1/t.cpp
 
-CMakeFiles/cpp.dir/a_with_update.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/a_with_update.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tomerfatael/CLionProjects/cpp1/a_with_update.cpp > CMakeFiles/cpp.dir/a_with_update.cpp.i
+CMakeFiles/cpp.dir/t.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/t.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tomerfatael/CLionProjects/cpp1/t.cpp > CMakeFiles/cpp.dir/t.cpp.i
 
-CMakeFiles/cpp.dir/a_with_update.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/a_with_update.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tomerfatael/CLionProjects/cpp1/a_with_update.cpp -o CMakeFiles/cpp.dir/a_with_update.cpp.s
+CMakeFiles/cpp.dir/t.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/t.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tomerfatael/CLionProjects/cpp1/t.cpp -o CMakeFiles/cpp.dir/t.cpp.s
 
 # Object files for target cpp
 cpp_OBJECTS = \
-"CMakeFiles/cpp.dir/a_with_update.cpp.o"
+"CMakeFiles/cpp.dir/t.cpp.o"
 
 # External object files for target cpp
 cpp_EXTERNAL_OBJECTS =
 
-cpp: CMakeFiles/cpp.dir/a_with_update.cpp.o
+cpp: CMakeFiles/cpp.dir/t.cpp.o
 cpp: CMakeFiles/cpp.dir/build.make
 cpp: CMakeFiles/cpp.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tomerfatael/CLionProjects/cpp1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cpp"
