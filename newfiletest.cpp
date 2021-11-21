@@ -1,4 +1,4 @@
 int main() {
-    "print heyt";
+    cout<<"commit";
 }
 
