@@ -1,4 +1,4 @@
-/Users/tomerfatael/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /Users/tomerfatael/CLionProjects/cpp1
+"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" C:\Users\Tomer\CLionProjects\cpp
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/tomerfatael/CLionProjects/cpp1/cmake-build-debug
+-- Build files have been written to: C:/Users/Tomer/CLionProjects/cpp/cmake-build-debug

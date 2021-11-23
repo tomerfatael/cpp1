@@ -6,9 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/tomerfatael/CLionProjects/cpp1/t.cpp
+C:/Users/Tomer/CLionProjects/cpp/D.cpp
+iostream
+-
 vector
 -
-iostream
+algorithm
+-
+map
 -
 
