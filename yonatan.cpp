@@ -15,7 +15,6 @@ void dfs(int a, vector<int>& v, vector<vector<int>>& g, vector<int>& od, int& p,
 }
 
 int main() {
-    ios_base::sync_with_stdio(false);
     int B, N;
     cin >> B >> N;
     vector<vector<int>> g(10000);
@@ -111,7 +110,7 @@ int main() {
     vector<long long> curr(B+1);
     for(int i=1; i<updatedVec.size(); i++){
         for(int j=0;j<=B; j++){
-            if(j - updatedVec[i].first >= 0 and prev[j - updatedVec[i].first] +
+            if(j - updatedVec[i].first >= 0 && prev[j - updatedVec[i].first] +
                                                                    updatedVec[i].second > prev[j])
                 curr[j] = prev[j - updatedVec[i].first] + updatedVec[i].second;
             else
